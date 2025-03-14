@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+  font-family: "Anton"
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: url(OW2_2024_S11-Launch_BNET_SA01_BNET_Shop-Browsing-Card_1920x1080.jpeg)
+}
+
+img {
+  border-radius: 10px;
+  max-height:250px;
+  object-fit:cover;
+}
+
+#diva-details, #widowmaker-details, #Sombra-details, #Junker-details, #echo-details, #illari-details {
+  display: none;
+}
+
+.widow{
+  color:purple;
+}
+
+.diva{
+  color:#bd7a84;
+}
+
+.sombra{
+  color:#bb07bb;
+}
+
+.junker{
+  color:#b30000;
+}
+
+.echo{
+  color:#887c7c;
+}
+
+.illari{
+  color:#8c8c0d;
+}
